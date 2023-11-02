@@ -16,6 +16,7 @@ docker exec -it <container_id_which_could_be_found_via_docker_ps_cmd> /bin/bash
 7. the container shell session should be opened in the terminal. Files and directories list should consist this:
 ls -al
 ![image](https://github.com/4sokol/alpine-neofetch/assets/72856789/45ac4f03-3cf9-4d8b-b4c2-af1449e556ea)
+
 cat /neofetch
 ![image](https://github.com/4sokol/alpine-neofetch/assets/72856789/74b2b624-ce5c-485e-9ab5-8e9595846039)
 8. to exit the container Shell Environment type 'exit'
